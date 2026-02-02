@@ -1,10 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
+Name : SAHITH M
+Roll no : 212224230236
+Date of experiment : 31/1/26
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
