@@ -78,24 +78,93 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+mov AX,5782H
+mov BX,23ABH
+ADD AX,BX
+mov [3001H],AX
+HLT
+```
 ## Output  
- 
+ <img width="1434" height="1055" alt="543434150-1438da66-3f5d-46c7-9e1b-5e57a966e181" src="https://github.com/user-attachments/assets/c7befd87-f894-4f9c-91e0-d63312f633a7" />
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+```
+mov AX,5782H
+mov BX,23ABH
+sub AX,BX
+mov [3003H],AX
+HLT
+```
 ## Output  
+<img width="1919" height="1016" alt="sub" src="https://github.com/user-attachments/assets/d7bb5871-876b-40c5-a8e9-1f605e7fae38" />
+
 ## Multiplication alp 
+```
+mov AX,5782H
+mov BX,23ABH
+mul BX
+mov [3005H],AX
+mov [3007H],DX
+HLT
+```
  ## Output  
+<img width="1919" height="1016" alt="sub (1)" src="https://github.com/user-attachments/assets/f3fe233f-da08-4339-88ed-bba6610ce5bd" />
 
 
 ## Division alp 
-
+```
+mov AX,5782H
+mov BX,23ABH
+div BX
+mov [3009H],AX
+mov [300BH],DX
+HLT
+```
 ## Output  
+<img width="1919" height="1015" alt="DIV" src="https://github.com/user-attachments/assets/39bcb95d-f664-4f6a-be05-25e886dbb61c" />
 
+## AND GATE ALP
+```
+mov AX,5782H
+mov BX,23ABH
+AND AX,BX
+MOV [4001H],AX
+HLT
+```
+## OUTPUT
+<img width="1919" height="1021" alt="and" src="https://github.com/user-attachments/assets/cdf5d468-c722-4c49-a30b-e862b006fbda" />
+## OR GATE ALP
+```
+mov AX,5782H
+mov BX,23ABH
+OR AX,BX
+MOV [4003H],AX
+HLT
+```
+## OUTPUT
+<img width="1918" height="1013" alt="or" src="https://github.com/user-attachments/assets/1231bcdb-621c-4d3f-99a8-6bfb9e149f7f" />
+## NOT GATE ALP
+```
+mov AX,5782H
+NOT AX
+MOV [4005H],AX
+HLT
+```
+## OUTPUT
+<img width="1919" height="1017" alt="not" src="https://github.com/user-attachments/assets/ad1fa78d-834b-4bc8-b8d3-97b707a3b7f7" />
+## XOR GATE ALP
+```
+MOV AX,5782H
+MOV BX,23ABH
+XOR AX,BX
+HLT
+```
+## OUTPUT
+<img width="815" height="431" alt="image" src="https://github.com/user-attachments/assets/5f335be4-2d4d-43c3-8df3-7de8ed60b3d5" />
 
 ## Result :
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
