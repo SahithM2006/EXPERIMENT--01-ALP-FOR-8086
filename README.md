@@ -133,8 +133,11 @@ MOV [4001H],AX
 HLT
 ```
 ## OUTPUT
+
 <img width="1919" height="1021" alt="and" src="https://github.com/user-attachments/assets/cdf5d468-c722-4c49-a30b-e862b006fbda" />
+
 ## OR GATE ALP
+
 ```
 mov AX,5782H
 mov BX,23ABH
@@ -143,8 +146,11 @@ MOV [4003H],AX
 HLT
 ```
 ## OUTPUT
+
 <img width="1918" height="1013" alt="or" src="https://github.com/user-attachments/assets/1231bcdb-621c-4d3f-99a8-6bfb9e149f7f" />
+
 ## NOT GATE ALP
+
 ```
 mov AX,5782H
 NOT AX
@@ -152,15 +158,20 @@ MOV [4005H],AX
 HLT
 ```
 ## OUTPUT
+
 <img width="1919" height="1017" alt="not" src="https://github.com/user-attachments/assets/ad1fa78d-834b-4bc8-b8d3-97b707a3b7f7" />
+
 ## XOR GATE ALP
+
 ```
 MOV AX,5782H
 MOV BX,23ABH
 XOR AX,BX
 HLT
 ```
+
 ## OUTPUT
+
 <img width="815" height="431" alt="image" src="https://github.com/user-attachments/assets/5f335be4-2d4d-43c3-8df3-7de8ed60b3d5" />
 
 ## Result :
